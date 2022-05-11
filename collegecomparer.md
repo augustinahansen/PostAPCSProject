@@ -5,4 +5,23 @@ deal major, gender, ethnicity, etc. and it will calculate your chances of gettin
 acceptance rate and current students stats. It would access an excel spreadsheet that contains all the stats 
 for the colleges and universities within the program. For the division of labor, there will be one person making 
 the excel spreadsheet and connecting to the program, one person formatting whats being printed out, and one person 
-who does the coding for the calculations on chances of getting in based on users input. 
+who does the coding for the calculations on chances of getting in based on users input.
+
+File Structure:
+College Class {
+int[][] collegeComparer;
+double aveGPA;
+int aveAcceptance;
+double price;
+String satRange;
+String actRange;
+double GraduationRate;
+double earningsAfterGraduation;
+String ranking;
+int numOfMajors;
+int numOfMinors;
+}
+ 
+CollegeOf…. Class{
+String type;
+}
